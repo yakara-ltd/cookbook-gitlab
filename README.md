@@ -241,6 +241,10 @@ Recipes
 
 This installs and starts GitLab with nginx and your chosen database.
 
+## runner
+
+This installs GitLab Runner. This does not have to be on the same system, in fact GitLab recommend against it.
+
 ## mysql, postgres
 
 These are internal, set `gitlab['database']['type']` instead.

@@ -18,6 +18,7 @@ source_url 'https://github.com/atomic-penguin/cookbook-gitlab'
   ncurses
   nodejs
   openssh
+  packagecloud
   postgresql
   readline
   redisio
