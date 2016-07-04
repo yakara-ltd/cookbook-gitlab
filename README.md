@@ -245,6 +245,10 @@ This installs and starts GitLab with nginx and your chosen database.
 
 This installs GitLab Runner. This does not have to be on the same system, in fact GitLab recommend against it.
 
+## docker
+
+This installs Docker and starts the service. It includes the `runner` recipe above.
+
 ## mysql, postgres
 
 These are internal, set `gitlab['database']['type']` instead.
